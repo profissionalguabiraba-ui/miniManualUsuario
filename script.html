@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de Conhecimento de Suporte</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Base de Conhecimento de Suporte</h1>
+        </header>
+
+        <nav class="toc" aria-label="Índice rápido">
+            <strong>Índice</strong>
+            <ul>
+                <li><a href="#topicos">Tópicos essenciais</a></li>
+                <li><a href="#fontes">Fontes confiáveis</a></li>
+                <li><a href="#resumo">Resumo prático</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="topicos" class="fade-in-up">
+                <h2>Tópicos essenciais</h2>
+                <p>Os artigos abaixo cobrem situações comuns que um usuário com dificuldades costuma enfrentar em um ambiente de suporte técnico.</p>
+                <div class="search-wrapper">
+                    <label for="search-topic">Buscar tópico</label>
+                    <input id="search-topic" type="search" placeholder="Procure por senha, internet, impressora..." />
+                </div>
+                <ul id="topic-list">
+                    <li><strong>Redefinir senha de usuário</strong> – procedimentos para recuperação de conta e redefinição segura.</li>
+                    <li><strong>Conexão à internet e Wi-Fi</strong> – verificação de rede, soluções de DNS e sinal fraco.</li>
+                    <li><strong>Impressoras e filas de impressão</strong> – resolver papel preso, drivers e impressões paradas.</li>
+                    <li><strong>Sistema não inicializa</strong> – diagnóstico de tela azul, boot e problemas de energia.</li>
+                    <li><strong>Recuperação de arquivos</strong> – restauração de documentos excluídos e uso de backups.</li>
+                    <li><strong>Verificação e remoção de malware</strong> – identificação de ameaças e limpeza segura.</li>
+                    <li><strong>Acesso remoto</strong> – uso de ferramentas de suporte remoto e acesso seguro.</li>
+                    <li><strong>Configuração de e-mail corporativo</strong> – contas, autenticação e sincronização.</li>
+                    <li><strong>Atualização de drivers e sistema</strong> – manter computadores atualizados e estáveis.</li>
+                    <li><strong>Políticas de backup</strong> – procedimentos de cópia, restauração e proteção de dados.</li>
+                </ul>
+            </section>
+
+            <section id="fontes" class="fade-in-up">
+                <h2>Fontes confiáveis</h2>
+                <p>Referências oficiais e sites de documentação técnica que apoiam os artigos e garantem informações seguras e atualizadas.</p>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Categoria</th>
+                                <th>Fonte</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Microsoft</td>
+                                <td><a href="https://support.microsoft.com" target="_blank" rel="noreferrer">support.microsoft.com</a></td>
+                                <td>Suporte e documentação para Windows, Office e serviços Microsoft.</td>
+                            </tr>
+                            <tr>
+                                <td>Apple</td>
+                                <td><a href="https://support.apple.com/pt-br" target="_blank" rel="noreferrer">support.apple.com/pt-br</a></td>
+                                <td>Guia oficial de suporte para macOS, iOS e equipamentos Apple.</td>
+                            </tr>
+                            <tr>
+                                <td>Linux</td>
+                                <td><a href="https://help.ubuntu.com" target="_blank" rel="noreferrer">help.ubuntu.com</a></td>
+                                <td>Documentação de suporte e tutoriais para distribuições Linux.</td>
+                            </tr>
+                            <tr>
+                                <td>ITIL / boas práticas</td>
+                                <td><a href="https://www.axelos.com" target="_blank" rel="noreferrer">axelos.com</a></td>
+                                <td>Referência de processos e práticas de gerenciamento de serviços de TI.</td>
+                            </tr>
+                            <tr>
+                                <td>Segurança</td>
+                                <td><a href="https://cert.br" target="_blank" rel="noreferrer">cert.br</a></td>
+                                <td>Orientações nacionais sobre segurança da informação e incidentes.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="resumo" class="fade-in-up">
+                <h2>Resumo prático</h2>
+                <p>Passo a passo simples para o usuário resolver os problemas mais comuns antes de procurar o suporte.</p>
+                <details class="collapsible" open>
+                    <summary>1. Redefinir senha de usuário</summary>
+                    <ol>
+                        <li>Tente lembrar a última senha usada.</li>
+                        <li>Use a opção <em>Esqueci minha senha</em> na tela de login.</li>
+                        <li>Verifique o e-mail ou SMS com o código de recuperação.</li>
+                        <li>Crie uma nova senha forte e anote em local seguro.</li>
+                    </ol>
+                </details>
+
+                <details class="collapsible" open>
+                    <summary>2. Problemas de internet ou Wi-Fi</summary>
+                    <ol>
+                        <li>Verifique se o cabo está conectado e se o roteador está ligado.</li>
+                        <li>Reinicie o roteador e o computador.</li>
+                        <li>Chegue mais perto do ponto de acesso sem fio.</li>
+                        <li>Teste outra rede, como a do celular, para confirmar se o problema é do Wi-Fi.</li>
+                    </ol>
+                </details>
+
+                <details class="collapsible" open>
+                    <summary>3. Impressora não imprime</summary>
+                    <ol>
+                        <li>Confirme se há papel e tinta/toner suficientes.</li>
+                        <li>Reinicie a impressora e limpe a fila de impressão no computador.</li>
+                        <li>Verifique se a impressora está configurada como padrão.</li>
+                        <li>Imprima uma página de teste diretamente na impressora.</li>
+                    </ol>
+                </details>
+
+                <details class="collapsible" open>
+                    <summary>4. Computador não liga ou dá tela azul</summary>
+                    <ol>
+                        <li>Confira se o cabo de energia está bem conectado.</li>
+                        <li>Desconecte periféricos e tente ligar novamente.</li>
+                        <li>Se aparecer mensagem de erro, anote o código ou texto.</li>
+                        <li>Se não iniciar, entre em contato com o suporte informando os sintomas.</li>
+                    </ol>
+                </details>
+
+                <details class="collapsible" open>
+                    <summary>5. Arquivos desaparecidos</summary>
+                    <ol>
+                        <li>Cheque a lixeira do computador.</li>
+                        <li>Use a busca do sistema pelo nome do arquivo.</li>
+                        <li>Se você tiver backup, restaure o arquivo da cópia mais recente.</li>
+                        <li>Não salve nada novo na unidade até confirmar se o arquivo pode ser recuperado.</li>
+                    </ol>
+                </details>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Base de Conhecimento de Suporte. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+    </div>
+</body>
+</html>
