@@ -8,8 +8,9 @@ link com referências oficiais e sites de documentação técnica que apoiam os 
 Passo a passo simples para o usuário resolver os problemas mais comuns antes de procurar o suporte
 
 ## Tecnologias usadas
-HTML/CSS
-Javascript
+- HTML/CSS
+- Javascript
+- Github Copilot
 
 ## Como executar
 
